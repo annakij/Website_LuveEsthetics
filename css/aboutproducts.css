@@ -58,6 +58,11 @@ h5 {
   box-shadow: none;
 }
 
+.container {
+  max-width: 1200px; /* Begränsar maxbredden för stora skärmar */
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3 {
@@ -89,6 +94,10 @@ html {
   background-color: #eae4dd;
   color: #60584e;
   border-radius: 0;
+}
+
+.img-fluid {
+  width: fit-content;
 }
 
 #buttonGroup {
