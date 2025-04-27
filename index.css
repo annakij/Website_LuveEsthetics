@@ -64,6 +64,7 @@ h3 {
 #recensioner {
   background-color: #eae4dd;
   text-align: center;
+  min-height: 500px;
 }
 
 #behandlingar {

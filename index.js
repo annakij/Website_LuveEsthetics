@@ -52,7 +52,7 @@ const products = [
             <p>${product.price} kr</p>
             <a class="btn ms-auto"
                class="footer-link"
-               style="background-color: #897d6e; color: #eae4dd;"
+               style="background-color: #897d6e; color: #fff;"
                aria-current="page"
                href="https://www.bokadirekt.se/places/luve-esthetics-59235"
                target="_blank">
