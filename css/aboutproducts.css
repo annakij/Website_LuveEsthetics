@@ -24,6 +24,10 @@ h5 {
   text-decoration: none;
   color: #60584e;
 }
+.navbar-link:hover,
+.nav-links:hover {
+  color: #000;
+}
 .offcanvas,
 .offcanvas-header,
 .offcanvas-body {
