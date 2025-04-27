@@ -1,0 +1,114 @@
+/* Text color: rgb(137, 125, 110)
+   Background: rgb(234, 228, 221) */
+
+body,
+.navbar,
+.navbar-brand,
+.footer,
+h1,
+h2,
+h3,
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navbar,
+.navbar li,
+.navbar li a {
+  background-color: rgba(234, 228, 221, 0.8);
+}
+.nav-links {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navbar-link {
+  list-style: none;
+  text-decoration: none;
+  color: #60584e;
+}
+.offcanvas,
+.offcanvas-header,
+.offcanvas-body {
+  background-color: rgb(234, 228, 221);
+}
+
+.navbar-brand,
+.offcanvas-title {
+  font-size: 2rem !important;
+  color: #60584e !important;
+}
+
+.navbar-toggler-icon {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 3rem;
+  color: #60584e !important;
+}
+
+#owner {
+  height: 600px !important;
+}
+
+#recensioner {
+  background-color: #eae4dd;
+  text-align: center;
+}
+
+#behandlingar {
+  text-align: center;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(150px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.img-fluid {
+  max-height: 350px;
+  width: 420px;
+  object-fit: cover;
+}
+
+.map-container,
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+}
+
+.footer,
+.footer li,
+.footer li a {
+  background-color: #897d6e;
+  list-style: none;
+  text-decoration: none;
+  color: #eae4dd;
+}
+
+.footer-link {
+  color: #eae4dd;
+  text-decoration: none;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+}

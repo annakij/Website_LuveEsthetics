@@ -1,0 +1,78 @@
+body,
+.navbar,
+.navbar-brand,
+.footer,
+h1,
+h2,
+h3,
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navbar,
+.navbar li,
+.navbar li a {
+  background-color: rgba(234, 228, 221, 0.6);
+}
+.nav-links {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navbar-link {
+  list-style: none;
+  text-decoration: none;
+  color: #60584e;
+}
+.offcanvas,
+.offcanvas-header,
+.offcanvas-body {
+  background-color: rgb(234, 228, 221);
+}
+
+.navbar-brand,
+.offcanvas-title {
+  font-size: 2rem !important;
+  color: #60584e !important;
+}
+
+.navbar-toggler-icon {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 3rem;
+  color: #60584e !important;
+}
+
+.img-fluid {
+  width: 100%;
+  display: flex;
+}
+
+.footer,
+.footer li,
+.footer li a {
+  background-color: #897d6e;
+  list-style: none;
+  text-decoration: none;
+  color: #eae4dd;
+}
+
+.footer-link {
+  color: #eae4dd;
+  text-decoration: none;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+.footer-icon {
+  width: 30px;
+  height: 30px;
+}
