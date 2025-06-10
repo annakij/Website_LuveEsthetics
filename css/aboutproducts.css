@@ -74,6 +74,17 @@ h3 {
   color: #60584e !important;
 }
 
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 #behandlingar {
   text-align: center;
   margin-top: 7rem;

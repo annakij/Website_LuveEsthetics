@@ -148,7 +148,7 @@
       </div>
 
     <div class="container text-center">
-        <div class="row mt-5 justify-content-center gap-5">
+        <div class="row mt-5 justify-content-center gap-5 active">
              <div class="card" style="width: 35rem;">
                 <img class="card-img-top mt-2" src="../cardImages/fillersHeader.jpeg" alt="Fillers Lips">
                     <div class="card-body">
@@ -167,7 +167,7 @@
             </div>
           </div>
 
-          <div class="row mt-5 justify-content-center gap-5">
+          <div class="row mt-5 justify-content-center gap-5 reveal">
             <div class="card" style="width: 35rem;">
                <img class="card-img-top mt-2" src="../cardImages/botoxHeader.jpeg" alt="Botox Behandling">
                    <div class="card-body">
@@ -186,7 +186,7 @@
            </div>
          </div>
 
-         <div class="row mt-5 justify-content-center gap-5">
+         <div class="row mt-5 justify-content-center gap-5 reveal">
             <div class="card" style="width: 35rem;">
                <img class="card-img-top mt-2" src="../cardImages/lashliftHeader.jpeg" alt="Lashlift">
                    <div class="card-body">
@@ -205,7 +205,7 @@
            </div>
          </div>
 
-         <div class="row mt-5 justify-content-center gap-5">
+         <div class="row mt-5 justify-content-center gap-5 reveal">
             <div class="card" style="width: 35rem;">
                <img class="card-img-top mt-2" src="../cardImages/BIABHeader.jpeg" alt="BIAB">
                    <div class="card-body">
@@ -313,5 +313,30 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      function revealOnScroll() {
+        const reveals = document.querySelectorAll(".reveal");
+    
+        for (let i = 0; i < reveals.length; i++) {
+          const windowHeight = window.innerHeight;
+          const elementTop = reveals[i].getBoundingClientRect().top;
+          const elementBottom = reveals[i].getBoundingClientRect().bottom;
+          const revealPoint = 100;
+    
+          // Visa element om det är i sikte
+          if (elementTop < windowHeight - revealPoint && elementBottom > 0) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+    
+      window.addEventListener("scroll", revealOnScroll);
+      window.addEventListener("load", revealOnScroll); // Om något redan är i view direkt
+    </script>
+    
+    
   </body>
 </html>
