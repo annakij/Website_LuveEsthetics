@@ -1,6 +1,3 @@
-/* Text color: rgb(137, 125, 110)
-   Background: rgb(234, 228, 221) */
-
 .navbar,
 .navbar-brand,
 .footer,
@@ -47,7 +44,6 @@ body p {
 .navbar-link:hover::after {
   width: 100%;
 }
-
 .offcanvas,
 .offcanvas-header,
 .offcanvas-body {
@@ -56,8 +52,8 @@ body p {
 
 .navbar-brand,
 .offcanvas-title {
-  font-size: 2rem;
-  color: #60584e;
+  font-size: 2rem !important;
+  color: #60584e !important;
 }
 
 .navbar-toggler-icon {
@@ -66,75 +62,26 @@ body p {
   box-shadow: none;
 }
 
-.custom-card {
-  border-radius: 0;
+.container {
+  max-width: 1200px; /* Begränsar maxbredden för stora skärmar */
+  margin: 0 auto;
+  min-height: 600px;
 }
 
-/* Tar bort rundade hörn från knappen */
-.custom-btn {
-  border-radius: 0;
+.d-block .btn {
   background-color: #7d8569;
+  border-radius: 0%;
+  letter-spacing: 2px;
   color: #fff;
   font-family: "Cormorant Garamond", serif;
-  letter-spacing: 1px;
 }
 
-.custom-btn:hover {
-  background-color: #fff;
-  color: #000;
+#treatment {
+  margin-top: 5rem;
 }
 
-h1,
-h2,
-h3 {
-  color: #60584e;
-}
-
-h1 {
-  font-size: 3.5rem;
-}
-
-#owner {
-  height: 600px;
-}
-
-#recensioner {
-  background-color: #eae4dd;
-  text-align: center;
-  min-height: 500px;
-}
-
-#behandlingar {
-  text-align: center;
-}
-
-.reveal {
-  opacity: 0;
-  transform: translateY(150px);
-  transition: opacity 0.8s, transform 0.8s;
-}
-
-.reveal.active {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.img-fluid {
-  max-height: 350px;
-  width: 420px;
-  object-fit: cover;
-}
-
-.map-container,
-.map-container iframe {
-  width: 100%;
-  height: 100%;
-  min-height: 400px;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+#treatmentHeader {
+  letter-spacing: 2px;
 }
 
 .footer,
@@ -156,7 +103,6 @@ h1 {
   width: 25px;
   height: 25px;
 }
-
 .footer-icon {
   width: 30px;
   height: 30px;

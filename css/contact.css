@@ -1,4 +1,3 @@
-body,
 .navbar,
 .navbar-brand,
 .footer,
@@ -6,13 +5,22 @@ h1,
 h2,
 h3,
 h5 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
+body p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .navbar,
 .navbar li,
 .navbar li a {
   background-color: rgba(234, 228, 221, 0.6);
+  font-size: 1.2rem;
 }
 .nav-links {
   position: absolute;
@@ -70,6 +78,14 @@ h3 {
   display: flex;
 }
 
+.d-flex .btn {
+  background-color: #7d8569;
+  border-radius: 0%;
+  letter-spacing: 2px;
+  color: #fff;
+  font-family: "Cormorant Garamond", serif;
+}
+
 .footer,
 .footer li,
 .footer li a {
@@ -77,6 +93,7 @@ h3 {
   list-style: none;
   text-decoration: none;
   color: #eae4dd;
+  font-size: 1.2rem;
 }
 
 .footer-link {
