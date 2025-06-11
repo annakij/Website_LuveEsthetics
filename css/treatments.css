@@ -7,11 +7,9 @@ h3,
 h5 {
   font-family: "Cormorant Garamond", serif;
 }
-
 body p {
   font-family: "Montserrat", sans-serif;
 }
-
 .navbar,
 .navbar li,
 .navbar li a {
@@ -29,7 +27,6 @@ body p {
   text-decoration: none;
   color: #60584e;
 }
-
 .navbar-link::after {
   content: "";
   position: absolute;
@@ -40,7 +37,6 @@ body p {
   left: 0;
   transition: width 0.3s ease;
 }
-
 .navbar-link:hover::after {
   width: 100%;
 }
@@ -49,25 +45,21 @@ body p {
 .offcanvas-body {
   background-color: rgb(234, 228, 221);
 }
-
 .navbar-brand,
 .offcanvas-title {
-  font-size: 2rem !important;
-  color: #60584e !important;
+  font-size: 2.3rem;
+  color: #60584e;
 }
-
 .navbar-toggler-icon {
   border: 0;
   outline: none;
   box-shadow: none;
 }
-
 .container {
   max-width: 1200px; /* Begränsar maxbredden för stora skärmar */
   margin: 0 auto;
   min-height: 600px;
 }
-
 .d-block .btn {
   background-color: #7d8569;
   border-radius: 0%;
@@ -75,15 +67,16 @@ body p {
   color: #fff;
   font-family: "Cormorant Garamond", serif;
 }
-
+.d-block .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
 #treatment {
   margin-top: 5rem;
 }
-
 #treatmentHeader {
   letter-spacing: 2px;
 }
-
 .footer,
 .footer li,
 .footer li a {
@@ -93,12 +86,10 @@ body p {
   color: #eae4dd;
   font-size: 1.2rem;
 }
-
 .footer-link {
   color: #eae4dd;
   text-decoration: none;
 }
-
 .icon {
   width: 25px;
   height: 25px;

@@ -7,14 +7,11 @@ h3,
 h5 {
   font-family: "Cormorant Garamond", serif;
 }
-
 body p {
   font-family: "Montserrat", sans-serif;
 }
-
 .container {
   max-width: 1200px;
-  margin: 0 auto;
 }
 .navbar,
 .navbar li,
@@ -33,7 +30,6 @@ body p {
   text-decoration: none;
   color: #60584e;
 }
-
 .navbar-link::after {
   content: "";
   position: absolute;
@@ -44,7 +40,6 @@ body p {
   left: 0;
   transition: width 0.3s ease;
 }
-
 .navbar-link:hover::after {
   width: 100%;
 }
@@ -53,31 +48,30 @@ body p {
 .offcanvas-body {
   background-color: rgb(234, 228, 221);
 }
-
 .navbar-brand,
 .offcanvas-title {
-  font-size: 2rem !important;
-  color: #60584e !important;
+  font-size: 2.3rem;
+  color: #60584e;
 }
-
 .navbar-toggler-icon {
   border: 0;
   outline: none;
   box-shadow: none;
 }
-
 h1,
 h2,
 h3 {
   font-size: 3rem;
-  color: #60584e !important;
+  color: #60584e;
 }
-
+h5 {
+  font: 2rem;
+  color: #60584e;
+}
 .img-fluid {
   width: 100%;
   display: flex;
 }
-
 .d-flex .btn {
   background-color: #7d8569;
   border-radius: 0%;
@@ -85,7 +79,10 @@ h3 {
   color: #fff;
   font-family: "Cormorant Garamond", serif;
 }
-
+.d-flex .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
 .footer,
 .footer li,
 .footer li a {
@@ -95,12 +92,10 @@ h3 {
   color: #eae4dd;
   font-size: 1.2rem;
 }
-
 .footer-link {
   color: #eae4dd;
   text-decoration: none;
 }
-
 .icon {
   width: 25px;
   height: 25px;

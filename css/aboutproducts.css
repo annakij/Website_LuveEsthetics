@@ -7,11 +7,9 @@ h3,
 h5 {
   font-family: "Cormorant Garamond", serif;
 }
-
 body p {
   font-family: "Montserrat", sans-serif;
 }
-
 .navbar,
 .navbar li,
 .navbar li a {
@@ -29,7 +27,6 @@ body p {
   text-decoration: none;
   color: #60584e;
 }
-
 .navbar-link::after {
   content: "";
   position: absolute;
@@ -40,7 +37,6 @@ body p {
   left: 0;
   transition: width 0.3s ease;
 }
-
 .navbar-link:hover::after {
   width: 100%;
 }
@@ -49,51 +45,45 @@ body p {
 .offcanvas-body {
   background-color: rgb(234, 228, 221);
 }
-
 .navbar-brand,
 .offcanvas-title {
-  font-size: 2rem !important;
-  color: #60584e !important;
+  font-size: 2.3rem;
+  color: #60584e;
 }
-
 .navbar-toggler-icon {
   border: 0;
   outline: none;
   box-shadow: none;
 }
-
 .container {
   max-width: 1200px; /* Begränsar maxbredden för stora skärmar */
   margin: 0 auto;
   min-height: 800px;
 }
-
 h1,
 h2,
 h3 {
-  color: #60584e !important;
+  color: #60584e;
 }
-
+h1 {
+  font-size: 3.2rem;
+}
 .reveal {
   opacity: 0;
   transform: translateY(40px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
-
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
 }
-
 #behandlingar {
   text-align: center;
   margin-top: 7rem;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 .back-to-top {
   position: fixed;
   bottom: 30px;
@@ -106,37 +96,29 @@ html {
   font-size: 28px;
   text-decoration: none;
   z-index: 1000;
-  background-color: rgba(234, 228, 221, 0.8);
-  color: #897d6e;
+  background-color: rgba(125, 133, 105, 0.9);
+  color: #ededed;
 }
-
-.d-flex .btn {
-  background-color: #eae4dd;
-  color: #60584e;
+.back-to-top:hover {
+  background-color: #a6ad97;
+}
+.card {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.card .card-img-top {
+  object-fit: cover;
+  height: 45rem;
+  border: none;
   border-radius: 0;
 }
-
-.card {
-  border: none !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-}
-
-.card .card-img-top {
-  object-fit: cover !important;
-  height: 45rem;
-  border: none !important;
-  border-radius: 0 !important;
-}
-
 .card .card-title {
   letter-spacing: 2px;
 }
-
 .img-fluid {
-  width: fit-content;
+  width: 100%;
 }
-
 .container .btn {
   background-color: #7d8569;
   color: #fff;
@@ -144,7 +126,10 @@ html {
   letter-spacing: 1px;
   font-family: "Cormorant Garamond", serif;
 }
-
+.container .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
 .footer,
 .footer li,
 .footer li a {
@@ -154,12 +139,10 @@ html {
   color: #eae4dd;
   font-size: 1.2rem;
 }
-
 .footer-link {
   color: #eae4dd;
   text-decoration: none;
 }
-
 .icon {
   width: 25px;
   height: 25px;
@@ -171,14 +154,18 @@ html {
 
 #bakgrund {
   background-color: #a9a198;
-  margin-top: 120px;
+  margin-top: 8rem;
 }
-
-#futureVision {
-  background-color: #60584e;
-  color: #fff;
+#bakgrund h3 {
+  color: #000;
 }
-
-#tributeSection {
+#futureVision,
+#futureVision h3 {
+  background-color: #7d8569;
+  color: #ededed;
+}
+#tributeSection,
+#tributeSection h3 {
   background-color: #eae4dd;
+  color: #000;
 }
